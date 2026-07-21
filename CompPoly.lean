@@ -101,11 +101,6 @@ import CompPoly.Fields.Binary.Tower.TensorAlgebra
 import CompPoly.Fields.Goldilocks
 import CompPoly.Fields.Goldilocks.Basic
 import CompPoly.Fields.Goldilocks.Fast
-import CompPoly.Fields.Goldilocks.Fast.Arithmetic
-import CompPoly.Fields.Goldilocks.Fast.Field
-import CompPoly.Fields.Goldilocks.Fast.Internal
-import CompPoly.Fields.Goldilocks.Fast.Reduction
-import CompPoly.Fields.Goldilocks.Fast.Theorems
 import CompPoly.Fields.Goldilocks.FastExt
 import CompPoly.Fields.KoalaBear
 import CompPoly.Fields.KoalaBear.Basic
@@ -117,6 +112,7 @@ import CompPoly.LinearAlgebra.Dense
 import CompPoly.LinearAlgebra.Dense.Basic
 import CompPoly.LinearAlgebra.Dense.Kernel
 import CompPoly.LinearAlgebra.Dense.KernelCorrectness
+import CompPoly.LinearAlgebra.Dense.KernelInPlace
 import CompPoly.LinearAlgebra.Dense.KernelInPlaceCorrectness
 import CompPoly.LinearAlgebra.Dense.RowOps
 import CompPoly.LinearAlgebra.Dense.RowOpsCorrectness
